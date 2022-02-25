@@ -1,0 +1,380 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* HEADER START */
+
+.header{
+    padding: 15px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    position: fixed;
+    z-index: 100;
+}
+
+.header .nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .menu ul li{
+    list-style: none;
+}
+
+.header .menu ul li a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    font-weight: bolder;
+    margin-left: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.header .menu ul li a:hover{
+    border-bottom: 3px solid #42D9E4;
+    padding-bottom: 10px;
+}
+
+.header .menu ul .home{
+    border-bottom: 2px solid #42D9E4;
+    padding-bottom: 10px;
+}
+/* HEADER END */
+
+.one{
+    background-image: url(../photo/wallpaper.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+.one .text-one{
+    position: absolute;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    top: 45%;
+    left: 25%;
+}
+
+.one .text-one .lime{
+    color: #94C62F;
+}
+
+.d-flex{
+    justify-content: center;
+}
+
+.one .text-one .btn-one a{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 12rem;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.one .text-one .btn-one a:first-child{
+    background-color: #94C62F;
+    transition: 0.2s ease-in-out;
+}
+
+.one .text-one .btn-one a:first-child:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.one .text-one .btn-one a:last-child{
+    border: 1px solid white;
+    transition: 0.2s ease-in-out;
+}
+
+.one .text-one .btn-one a:last-child:hover{
+    background-color: white;
+    color: black;
+}
+
+/* SECTION ONE END */
+/* =============== */
+/* EXPLORE SECTION START */
+
+.explore{
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+
+.explore .explore-text{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+}
+.explore .boxes {
+    text-align: center;
+    margin-top: 5%;
+}
+.explore .boxes .box {
+    width: 30%;
+    border: 1px solid rgb(194, 194, 194);
+    margin: 0 20px 30px 0;
+    box-shadow: 0 0 3px 0 rgb(130 121 121 / 60%);
+    transition: 0.3s ease-in-out;
+}
+
+.explore .boxes .box:hover{
+    background-color: #ff00ff;
+    color: white;
+}
+
+.explore .boxes .box h3 {
+    font-weight: 500;
+    line-height: 1.1;
+    color: grey;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.explore .boxes .box p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 17px;
+    color: #666666;
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;    
+}
+.explore .boxes .box i {
+    font-size: 45px;
+    color: aqua;
+    margin: 20px 0 10px 0;
+}
+
+/* EXPLORE SECTION END */
+/* =================== */
+/* MAXO SECTION START */
+
+.maxo{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(#42A7CD,#3CE25B);
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.maxo .girl{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.maxo .girl h1{
+    font-size: 50px;
+}
+
+.maxo .girl img{
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 5rem;
+}
+
+.maxo .girl h5{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.maxo .girl .first{
+    font-size: 13px;
+}
+
+.maxo .girl .second{
+    width: 50%;
+    margin-top: 15px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+/* MAXO SECTION END */
+/* ================ */
+/* PORTFOLIO SECTION START */
+
+.portfolio{
+    width: 100%;
+    height: 180vh;
+    background-color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.portfolio .container .head{
+    justify-content: space-between;
+    padding-top: 5rem;
+
+}
+
+.portfolio .container .head .logo h1{
+    font-size: 40px;
+}
+
+.portfolio .container .head .menu ul li{
+    list-style: none;
+    margin-left: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.portfolio .container .head .menu ul li:hover{
+    border-bottom: 4px solid #02fdbe;
+    padding-bottom: 10px;
+}
+
+.portfolio .container .head .menu ul li a{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+     cursor: pointer;
+}
+
+.portfolio .container .boxes .box{
+   width: 350px;
+   height: 430px;
+   margin: 20px;
+}
+
+.portfolio .container .boxes .box img{
+    width: 100%;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio .container .boxes .large{
+    width: 740px;
+    height: 430px;
+}
+.portfolio .container .boxes .large image{
+    width: 100%;
+}
+
+/* PORTFOLIO SECTION END */
+/* ===================== */
+/* ALICE SECTION START */
+
+.alice{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(#EB7A1E,#ED286D);
+    text-align: center;
+    color: white;
+}
+
+.alice h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    padding-top: 150px;
+}
+
+.alice p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+/* ALICE SECTION END */
+/* ================= */
+/* PACKAGES SECTION START */
+
+.packages{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 249, 242);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.packages .pack-text h1{
+    font-size: 39px;
+    
+}
+
+.packages .boxes .box{
+    width: 350px;
+    height: 470px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 25px;
+    background-color: rgb(0, 212, 212);
+}
+
+.packages .boxes .box .money{
+      font-size: 35px;
+}
+
+.packages .boxes .box .box-head{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.packages .boxes .box .gb{
+    text-align: center;
+    line-height: 45px;
+}
+
+.packages .boxes .box .gb a{
+    padding: 12px 37px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    border: 2.5px solid white;
+    transition: 0.3s ease-in-out;
+}
+
+.packages .boxes .box .gb a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* PACKAGES SECTION END */
+/* ==================== */
+/* LATEST SECTION START */
+
+.latest{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(#D835CF,#FC3659);
+}
+
+.latest .boxes{
+    justify-content: space-around;
+}
+
+.latest .boxes .box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+}
+
+.latest .boxes .box img{
+    width: 100%;
+}
+
